@@ -7,69 +7,130 @@
     --ff-primary: Arial, Helvetica, sans-serif;
     --primary-color:#ffffff;
     --secondary-color: #000000;
+    --third--color: lavender;
 }
+/* BODY */
 body {
     background-color:var(--primary-color);
     font-family: var(--ff-primary);
+    line-height: 1;
 }
 p {
     font-family: var(--ff-primary);
+    font-size: 3vw;
 }
 a {
-    font-size: 20px;
+    font-size: 3vw;
 }
+
+/* HEADER BEGINS */
 .header {
-    padding: 40px 40px;
-    background-color:lavender;
+    padding: 20px 10px;
+    background-color:var(--third--color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
 }
 .header h1 {
     font-weight: bold;
-    font-size: 40px;
-    margin: 0 auto;
-    float: left;
+    font-size: 8vw;
+    margin: 0;
 }
 .header h2 {
-    float: right;
-    margin-top: 0;
+    position: relative;
+    font-weight: lighter;
+    font-size: 3vw;
 }
 .header a {
     text-decoration: none;
 }
 .header nav {
-    float:right;
-}
+    margin: 7px 0;
 }
 .header nav ul {
-    display:block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items:flex-start;
+    list-style: none;
 }
-.header nav ul li {
-    float: right;
+.header nav ul li a {
+    margin: 0 20px;
+    color: var(--secondary-color);
+    font-size: 3vw;
+}
+.header nav ul li a:hover {
+    color: var(--primary-color);
+}
+/* HEADER ENDS */
+
+/* SECTION BEGINS */
+.section {
+    padding: 10px;
 }
 .section-title {
-    font-size: 30px;
+    text-align: center;
+    font-size: 4vw;
     font-weight: bold;
-    background-color:lavender;
-    margin: 10px 10px;
+    background-color:var(--third--color);
 }
 .img {
     max-width: 100%;
     height: auto;
-    display: list-item;
-  }
+}
 .intro {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid var(--secondary-color);
     text-align: center;
-  }
+}
+
+/* WORK BEGINS */
 .work {
-      text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid var(--secondary-color);
+    text-align: center;
     
-  }
+}
+.projects {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: lighter;
+}
+/* WORK ENDS */
+
+/* CONTACT BEGINS */
 .contact {
-      text-align: center;
-  }
-.contact .contact-list {
-      font-size: px;
-  }
-.footer { 
-      text-align: center;
-      background-color: lavender;
-  }
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid var(--secondary-color);
+    text-align: center;
+}
+.contact-list {
+    list-style: none;
+
+}
+.contact a {
+    font-size: medium;
+}
+/*CONTACT ENDS*/
+
+/*FOOTER BEGINS */
+footer { 
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--third--color);
+    padding: 20px 10px;
+    width: 100%;
+}
+.footer p {
+    text-align: center;
+}
+/* FOOTER ENDS*/
+@media (hover: hover) {
+    img:hover{
+        opacity: 50%;
+    }
+}
