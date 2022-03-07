@@ -41,7 +41,7 @@ header h1 {
     margin: 0;
 }
 .subheader {
-    padding:80px;
+    padding:20px 35px;
     background-image: url("./images/laptop-unsplash.jpg");
     background-size: cover;
     background-position:50%;
@@ -135,7 +135,7 @@ img {
 }
 .projects-column {
     padding: 20px;
-    columns: 10px 2;
+    columns: 5px 2;
     width: 100%;
 }
 /* WORK ENDS */
