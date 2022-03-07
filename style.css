@@ -27,7 +27,7 @@ a {
 
 /* HEADER BEGINS */
 header {
-    padding: 20px 20px;
+    padding: 50px;
     background-color:var(--third--color);
     display: flex;
     justify-content: space-between;
@@ -41,7 +41,7 @@ header h1 {
     margin: 0;
 }
 .subheader {
-    padding:20px 35px;
+    padding:100px;
     background-image: url("./images/laptop-unsplash.jpg");
     background-size: cover;
     background-position:50%;
