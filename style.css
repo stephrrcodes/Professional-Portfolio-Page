@@ -18,7 +18,7 @@ body {
 }
 p {
     font-family: var(--ff-primary);
-    font-size: 4vw;
+    font-size: 3vw;
     line-height: 1.5;
 }
 a {
@@ -41,7 +41,7 @@ header h1 {
     margin: 0;
 }
 .subheader {
-    padding:80px 20px;
+    padding:80px;
     background-image: url("./images/laptop-unsplash.jpg");
     background-size: cover;
     background-position:50%;
@@ -81,7 +81,7 @@ section {
 }
 .section-title {
     text-align: center;
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: bold;
     background-color:var(--third--color);
     margin: 0 auto;
@@ -112,7 +112,6 @@ img {
     text-align: center;
 }
 .intro-image {
-    display: flex;
     padding: 10px;
     max-width: 100%;
     height: auto;
