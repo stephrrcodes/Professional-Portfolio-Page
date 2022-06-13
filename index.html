@@ -8,16 +8,16 @@
         <link rel="stylesheet" href="style.css">
         <title>Stephanie Rodriguez's Portfolio</title>
     </head>
-    <body class="bg-emerald-800">
+    <body>
     <!-- Header -->
-        <header class="grid flex items-center justify-center">
-            <h1 class="text-white text-center rounded-full m-2">Stephanie Rodriguez</h1>
+        <header class="grid flex items-center justify-center bg-cyan-500 shadow-lg shadow-cyan-500/50">
+            <h1 class="text-black text-center rounded-full m-2">Stephanie Rodriguez</h1>
     <!-- Navigation -->
             <nav class="flex">
-                <ul class="grid grid-cols-3 w-full text-white">
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#my-work">My Work</a></li>
-                    <li><a href="#contact-me">Contact Me</a></li>
+                <ul class="grid grid-cols-3 w-full">
+                    <li><a href="#about-me" class="bg-white text-black md:shadow rounded">About Me</a></li>
+                    <li><a href="#my-work" class="bg-white text-black md:shadow rounded">My Work</a></li>
+                    <li><a href="#contact-me" class="bg-white text-black md:shadow rounded">Contact Me</a></li>
                 </ul>
             </nav>
         </header>
@@ -26,42 +26,46 @@
         </div>
 
     <!-- About Me -->
-        <section class="grid place-content-center bg-emerald-600 w-full text-white text-center" id="about-me">
-            <h2 class="intro-section-title text-black text-center bg-rose-200 rounded-full m-2"> About Me </h2>
+        <section class="grid place-content-center bg-cyan-600 w-full text-white text-center" id="about-me">
+            <h3 class="section-title text-black text-center bg-white rounded-full m-2"> About Me </h3>
             <p class="intro-par text-base">
                 Hello, my name is Stephanie Rodriguez. 
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Fugiat voluptas veritatis perferendis rerum distinctio odio expedita ullam 
-                rem praesentium tempore, quaerat officia impedit vitae dolore aspernatur quae doloremque culpa beatae.
             </p>
             <img class="w-16 md:w-32 lg:w-48" src="./images/stock-photo.jpg" alt="stock avatar">
         </section>
     <!-- My Work -->
-        <section class="work bg-emerald-600 text-white text-center" id="my-work">
-            <h2 class="section-title text-black text-center bg-rose-200 rounded-full m-2"> My Work </h2>
+        <section class="work bg-cyan-600 text-white text-center" id="my-work">
+            <h2 class="section-title text-black text-center bg-white rounded-full m-2"> My Work </h2>
             <p> Here a few examples of my projects.</p>
             <h3 class="projects"> Run Buddy </h3>
                 <a href="https://stephrrcodes.github.io/run-buddy/">
                 <img class="lg:flex" alt="Run Buddy site main image with woman typing shoelace" src="./images/run buddy.jpeg">
              </a>
             <div class="projects-column">
-            <h3 class="projects"> Horiseon Code Refractor </h3>
+                <h3 class="projects"> Horiseon Code Refractor </h3>
                 <a href="https://stephrrcodes.github.io/Horiseon-Code-Refractor/">
                 <img class="md:flex" alt="workers in a conference meeting around table" src="./images/horiseon.jpg">
                 </a>
-            <h3 class="projects"> Robot Gladiators </h3>
+                <br>
+                <h3 class="projects"> Robot Gladiators </h3>
                 <a href="https://stephrrcodes.github.io/robot-gladiators/">
                 <img class="md:flex" alt="four robots toys in a row" src="./images/robotgladiators-unsplash.jpg">
-                </a>
-            <h3 class="projects"> Game Database </h3>
+                </a> 
+                <br>
+                <h3 class="projects"> Game Database </h3>
                 <a href="https://uhmammoth.github.io/GamePlatforms/">
                 <img class="md:flex" alt="gaming site with search bar and video games listed" src="./images/databasephoto.png">
+                </a>
+                <br>
+                <h3 class="projects"> Self Management App </h3>
+                <a href="https://self-management-app.herokuapp.com/">
+                <img class="md:flex" alt="A self management application" src="./images/Self Management App.png">
                 </a>
             </div>
         </section>
     <!--Contact Me -->
-        <section class="contact text-center" id="contact-me"> 
-            <h2 class="section-title text-black text-center bg-amber-300 rounded-full m-2">Contact Me</h2>
+        <section class="contact text-center bg-cyan-500 shadow-lg shadow-cyan-500/50" id="contact-me"> 
+            <h2 class="section-title text-black bg-white text-center rounded-full m-2">Contact Me</h2>
             <ul class="contact-list">
                 <li>Phone: (909) 775-6811</li>
                 <li><a href="mailto:ramossteph08@gmail.com">Email Me</a></li>
@@ -72,7 +76,7 @@
     <!-- Footer -->
         <footer class="footer">
             <p>Thank you for your time</p>
-            <p>This webpage was built by Stephanie Rodriguez</p>
+            <p>This site was built by Stephanie Rodriguez</p>
         </footer>
     </body>
 </html>
