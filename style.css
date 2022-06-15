@@ -9,6 +9,9 @@ body {
     font-family: var(--ff-primary);
     line-height: 1;
     color: var(--secondary-color);
+    background-image: url("./images/laptop-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
 }
 p {
     font-family: var(--ff-primary);
@@ -34,9 +37,7 @@ header h1 {
     margin: 0;
 }
 .subheader {
-    background-image: url("./images/laptop-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
+
 }
 div h2 {
     font-weight: lighter;
